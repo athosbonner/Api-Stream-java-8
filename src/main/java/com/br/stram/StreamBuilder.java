@@ -8,12 +8,8 @@ public class StreamBuilder {
 		
 		Stream.Builder<String> useStreamBuilder = Stream.builder();
 		
-		Stream<String> useStream = useStreamBuilder.add("Avengers: Endgame").build();
+		Stream<String> useStream = useStreamBuilder.add("Capitã marvel").add("Avengers: Endgame").build();
 		useStream.forEach(System.out::println);
-		
-		
-		
-		
 		
 	}
 
